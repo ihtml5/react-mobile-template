@@ -65,6 +65,7 @@ choosePort(HOST, DEFAULT_PORT)
       urls.lanUrlForConfig
     );
     const devServer = new WebpackDevServer(compiler, serverConfig);
+    console.log('devServer', devServer);
     // Launch WebpackDevServer.
     devServer.listen(port, HOST, err => {
       if (err) {

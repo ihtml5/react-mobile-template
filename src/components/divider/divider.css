@@ -1,0 +1,14 @@
+.tnm-divider {
+    text-align: center;
+    margin: 0.65rem 0 1rem 0;
+}
+.tnm-divider-line {
+    height: 1px;
+    border-bottom: 1px solid #ddd;
+}
+.tnm-divider-text {
+    position: relative;
+    top: 0.65rem;
+    font-size: 13px;
+    color:#999;
+}
