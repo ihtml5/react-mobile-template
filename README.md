@@ -1,5 +1,5 @@
 # react-mobile-template
-react-mobile-template
+基于 webpack2+react+redux+react-router移动端单页面应用模板
 
 ### 工具
 + [cssrem](https://marketplace.visualstudio.com/items?itemName=cipchk.cssrem)
