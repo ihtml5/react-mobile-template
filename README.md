@@ -2,7 +2,7 @@
 react-mobile-template
 
 ### 工具
-1. [cssrem](https://marketplace.visualstudio.com/items?itemName=cipchk.cssrem)
++ [cssrem](https://marketplace.visualstudio.com/items?itemName=cipchk.cssrem)
 
 ### 移动web
 + [移动端1px细线解决方案总结](http://www.cnblogs.com/fang51/p/5681528.html)
