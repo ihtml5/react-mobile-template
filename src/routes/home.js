@@ -1,5 +1,4 @@
 export default {
-    path: 'home',
     getComponent(nextState, cb) {
         require.ensure([], (require) => {
         // 在后面加 .default
