@@ -1,0 +1,37 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans","wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+}
+.tnm-img {
+    max-width: 100%;
+    height: auto;
+}
+.tnm-pargraph {
+  text-indent: 1em;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.8;
+}
+.tnm-title {
+  font-size: 18px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+.tnm-active-link {
+  text-align: center;
+  vertical-align: middle;
+  background-color: #226fbb;
+  color: #fff;
+}

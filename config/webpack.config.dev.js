@@ -12,7 +12,6 @@ const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const getClientEnvironment = require('./env');
 const paths = require('./paths');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
-
 // Webpack uses `publicPath` to determine where the app is being served from.
 // In development, we always serve from the root. This makes config easier.
 const publicPath = '/';
@@ -183,36 +182,37 @@ module.exports = {
       {
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
-          fallback: require.resolve('style-loader'),
-          use: [{
-            loader: require.resolve('css-loader'),
-            options: {
-              importLoaders: 1,
+          fallback: "style-loader",
+          use: [
+            {
+              loader: require.resolve('css-loader'),
+              options: {
+                importLoaders: 1,
+              },
             },
-          },
-          {
-            loader: require.resolve('postcss-loader'),
-            options: {
-              // Necessary for external CSS imports to work
-              // https://github.com/facebookincubator/create-react-app/issues/2677
-              ident: 'postcss',
-              plugins: () => [
-                require('postcss-flexbugs-fixes'),
-                autoprefixer({
-                  browsers: [
-                    '>1%',
-                    'last 4 versions',
-                    'Firefox ESR',
-                    'not ie < 9', // React doesn't support IE8 anyway
-                  ],
-                  flexbox: 'no-2009',
-                }),
-              ],
+            {
+              loader: require.resolve('postcss-loader'),
+              options: {
+                // Necessary for external CSS imports to work
+                // https://github.com/facebookincubator/create-react-app/issues/2677
+                ident: 'postcss',
+                plugins: () => [
+                  require('postcss-flexbugs-fixes'),
+                  autoprefixer({
+                    browsers: [
+                      '>1%',
+                      'last 4 versions',
+                      'Firefox ESR',
+                      'not ie < 9', // React doesn't support IE8 anyway
+                    ],
+                    flexbox: 'no-2009',
+                  })
+                ],
+              },
             },
-          },
-        ],
-      })
-    }
+          ]
+        })
+      },
       // ** STOP ** Are you adding a new loader?
       // Remember to add the new extension(s) to the "file" loader exclusion list.
     ],
@@ -251,10 +251,11 @@ module.exports = {
     // You can remove this if you don't use Moment.js:
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
     new ExtractTextPlugin({
-      filename: (getPath) => {
-        return getPath('assets/css/[contenthash].css').replace('assets/css/js', 'css');
+      filename:  (getPath) => {
+        return getPath('css/[contenthash:8].css').replace('css/js', 'css');
       },
-      allChunks: true
+      allChunks: true,
+      disable: true
     })
   ],
   // Some libraries import Node modules but don't use them in the browser.

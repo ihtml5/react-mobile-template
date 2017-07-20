@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import VirtualCom from './components/list';
 import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render(<VirtualCom count={12}/>, document.getElementById('root'));
+import { browserHistory, Router } from 'react-router';
+import rootRoute from './routes';
+ReactDOM.render(<Router history={browserHistory} routes={rootRoute}></Router>, document.getElementById('root'));
 registerServiceWorker();
