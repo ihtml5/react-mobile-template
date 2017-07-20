@@ -49,11 +49,13 @@
     "weui": "^1.1.2",
     "whatwg-fetch": "2.0.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^2.1.2"
+  },
   "scripts": {
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "start": "nodemon scripts/start.js",
+    "build": "nodemon scripts/build.js",
+    "test": "nodemon scripts/test.js --env=jsdom"
   },
   "jest": {
     "collectCoverageFrom": [
