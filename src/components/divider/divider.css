@@ -1,6 +1,6 @@
 .tnm-divider {
     text-align: center;
-    margin: 0.65rem 0 1rem 0;
+    margin: .625rem 0 .625rem 0;
 }
 .tnm-divider-line {
     height: 1px;
@@ -8,7 +8,7 @@
 }
 .tnm-divider-text {
     position: relative;
-    top: 0.65rem;
+    top: 0.25rem;
     font-size: 13px;
     color:#999;
 }

@@ -206,7 +206,7 @@ module.exports = {
                       'not ie < 9', // React doesn't support IE8 anyway
                     ],
                     flexbox: 'no-2009',
-                  }),
+                  })
                 ],
               },
             },
@@ -254,7 +254,8 @@ module.exports = {
       filename:  (getPath) => {
         return getPath('css/[contenthash:8].css').replace('css/js', 'css');
       },
-      allChunks: true
+      allChunks: true,
+      disable: true
     })
   ],
   // Some libraries import Node modules but don't use them in the browser.
