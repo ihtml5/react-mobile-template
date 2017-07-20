@@ -35,6 +35,7 @@
     "react-dev-utils": "^3.0.2",
     "react-dom": "^15.6.1",
     "react-error-overlay": "^1.0.9",
+    "react-tiny-virtual-list": "^2.0.6",
     "react-weui": "^1.0.3",
     "style-loader": "0.18.2",
     "sw-precache-webpack-plugin": "0.11.3",
@@ -47,9 +48,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "start": "nodemon scripts/start.js",
+    "build": "nodemon scripts/build.js",
+    "test": "nodemon scripts/test.js --env=jsdom"
   },
   "jest": {
     "collectCoverageFrom": [
