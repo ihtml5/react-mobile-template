@@ -24,3 +24,4 @@
 
 + [uber-mobile-web](https://github.com/narendrashetty/uber-mobile-web)
 + [react-router-redux-mobile-spa](https://github.com/younth/react-router-redux-mobile-spa)
++ [aws-mobile-react-sample](https://github.com/awslabs/aws-mobile-react-sample/)
