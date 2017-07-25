@@ -1,10 +1,14 @@
 import React from 'react';
 import { Link, IndexLink } from 'react-router';
-const Menu = ({activeClassName}) => {
+const Menu = ({activeClassName, menus}) => {
     return (
         <ul className="tnm-nav">
-            <li><IndexLink to="/" activeClassName={activeClassName}>首页</IndexLink></li>
-            <li><Link to="/detail" activeClassName={activeClassName}>证券</Link></li>
+            {menus.map((menu) => {
+                if (menu.path === '/' || menu.path === '') {
+                    return <li key={menu.path}><IndexLink to={menu.path} activeClassName={activeClassName}>{menu.text}</IndexLink></li>
+                }
+                return  <li key={menu.path}><Link to={menu.path} activeClassName={activeClassName}>{menu.text}</Link></li>
+            } )}
         </ul>
     )
 }

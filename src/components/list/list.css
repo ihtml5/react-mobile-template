@@ -1,33 +1,20 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
-html {
-    font-size: 16px;
-}
+
 .Tnm-listItem {
     border-bottom: 1px solid #ddd;
     overflow: hidden;
 }
-
-.Tnm-root {
-    padding-bottom: 50px;
-}
 .Tnm-listItem img {
     max-width: 100%;
-    margin-top: 5px;
-    height: 40px;
+    margin-top: .066667rem;
+    height: 80%;
 }
 .Tnm-listItem-desc {
     float:left;
     width: 80px;
-    margin: 2px;
+    padding: 0.5%;
 }
 .Tnm-listItem-detail {
-    padding: 0.1rem;
-    margin-left: 8.1rem;
+    padding: .066667rem;
+    margin-left: 80px;
     height: 100%;
 }

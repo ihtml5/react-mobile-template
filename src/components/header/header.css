@@ -1,5 +1,6 @@
 .tnm-header {
     position: relative;
+    height: 44px;
     background: url(//mat1.gtimg.com/www/mobi/image/headerbg_v2.png) 139px top no-repeat;
     -webkit-background-size: 141px 44px;
     -moz-background-size: 141px 44px;
@@ -29,18 +30,21 @@
     font-size: 16px;
 }
 .tnm-nav {
+    margin: 0;
+    padding: 5px 0;
     width: 100%;
     background: #4998e7;
-    padding: .1rem 0.352rem;
     overflow: hidden;
 }
 .tnm-nav li {
     display: inline-block;
     float: left;
     margin-left: .1875rem;
-    width: 20%;
+    margin-bottom: 3px;
+    width: 18%;
     line-height: 30px;
     font-size: 1.125em;
+    text-align: center;
 }
 .tnm-nav li a {
     display: block;

@@ -5,11 +5,17 @@
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
 }
-html {
-  font-size: 10px;
-}
 body {
   font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans","wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+  height: 100%;
+  left:0;
+  top: 0;
+  overflow: hidden;
+  position: fixed;  
+}
+.Tnm-root {
+    padding-bottom: 50px;
+    height: 100%;
 }
 .tnm-img {
     max-width: 100%;
@@ -34,4 +40,11 @@ a {
   vertical-align: middle;
   background-color: #226fbb;
   color: #fff;
+}
+.tnm-home {
+  padding-bottom: .625rem;
+}
+.tnm-main {
+  overflow-y: auto;
+  height: auto;
 }

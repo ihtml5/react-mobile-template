@@ -20,12 +20,12 @@ export default class VirtualCom extends Component {
     }
     componentDidMount() {
         this.setState({
-            height: getDeviceInfo('height'),
+            height: getDeviceInfo('height')-100,
             width: getDeviceInfo('width')
         })
         window.onresize = () => {
             this.setState({
-                height: getDeviceInfo('height'),
+                height: getDeviceInfo('height')-100,
                 width: getDeviceInfo('width')
             });
         }
