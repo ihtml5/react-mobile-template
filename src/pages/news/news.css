@@ -10,7 +10,7 @@
 }
 .tnm-gallery-detail h2 {
     overflow: hidden;
-    font-size: 1.0625em;
+    font-size: 14px;
     font-weight: 400;
     text-overflow: ellipsis;
     white-space: nowrap;

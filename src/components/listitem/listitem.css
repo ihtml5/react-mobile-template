@@ -1,3 +1,31 @@
+ .tnm-news {
+     margin: 0;
+     padding: 0;
+} 
+.tnm-gallery-desc {
+    width: 60px;
+    border-left: none;
+    height: 100%;
+    background-color: #fff;
+} 
+.tnm-gallery-detail {
+    flex: 1;
+    height: 100%;
+    background-color: #fff;
+    border-left: 1px solid #fff;
+}
+.tnm-gallery-detail h2 {
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: .066667rem;
+}
+.tnm-img {
+    padding: .133333rem;
+    height: 100%;
+}
 .tnm-news li {
     display: -webkit-flex;
     display: flex;
@@ -15,5 +43,5 @@
     float: right;
     margin-right: .133333rem;
     color: #999;
-    font-size: .275rem;
+    font-size: 10px;
 }

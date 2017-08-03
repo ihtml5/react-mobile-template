@@ -1,5 +1,4 @@
 import React from 'react';
-import './news.css';
 import NEWSLIST from '../../mock/list';
 import ListItem from '../../components/listitem';
 const News = () => (<ul className="tnm-news">
