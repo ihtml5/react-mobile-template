@@ -1,0 +1,28 @@
+ .tnm-news {
+     margin: 0;
+     padding: 0;
+} 
+.tnm-gallery-detail {
+    flex: 1;
+    height: 100%;
+    background-color: #fff;
+    border-left: 1px solid #fff;
+}
+.tnm-gallery-detail h2 {
+    overflow: hidden;
+    font-size: 1.0625em;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: .066667rem;
+}
+ .tnm-gallery-desc {
+    width: 1.5rem;
+    border-left: none;
+    height: 100%;
+    background-color: #fff;
+} 
+.tnm-img {
+    padding: .133333rem;
+    height: 100%;
+}

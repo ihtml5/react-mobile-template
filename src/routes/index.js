@@ -5,7 +5,8 @@ const rootRoute = {
     component: require('../app').default,
     childRoutes: [
         require('./detail').default,
-        require('./home').default
+        require('./home').default,
+        require('./news').default
     ]
   }]
 }
