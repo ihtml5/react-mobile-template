@@ -11,14 +11,16 @@
 + [browser-sync](https://github.com/BrowserSync/browser-sync)
 + [fiddler](http://www.telerik.com/fiddler)
 + [cssrem](https://marketplace.visualstudio.com/items?itemName=cipchk.cssrem)
+### 移动端布局
++ [使用Flexible实现手淘H5页面的终端适配](http://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html)
++ [再聊移动端页面的适配](https://www.w3cplus.com/css/vw-for-layout.html)
++ [移动端1px细线解决方案总结](http://www.cnblogs.com/fang51/p/5681528.html)
++ [移动前端开发之viewport的深入理解](http://www.cnblogs.com/2050/p/3877280.html)
 
 ### 方法论
 + [bem](https://en.bem.info/)
 
-### 知识
-+ [移动端1px细线解决方案总结](http://www.cnblogs.com/fang51/p/5681528.html)
-+ [移动前端开发之viewport的深入理解](http://www.cnblogs.com/2050/p/3877280.html)
-+ [使用Flexible实现手淘H5页面的终端适配](http://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html)
+### 性能优化
 + [React移动web极致优化](http://dev.qq.com/topic/579083d1c9da73584b02587d)
 + [解析Twitter前端架构 学习复杂场景数据设计](https://segmentfault.com/a/1190000009224244)
 + [Dissecting Twitter’s Redux Stor](https://medium.com/statuscode/dissecting-twitters-redux-store-d7280b62c6b1)
