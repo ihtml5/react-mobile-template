@@ -18,6 +18,9 @@
 + [移动前端开发之viewport的深入理解](http://www.cnblogs.com/2050/p/3877280.html)
 + [H5移动多终端适配全解 - 从原理到方案](https://zhuanlan.zhihu.com/p/25422063)
 
+### 服务端渲染
++ [腾讯新闻React同构直出优化实践](http://www.alloyteam.com/2016/06/tencent-news-react-isomorphic-straight-out-optimization/)
+
 ### 方法论
 + [bem](https://en.bem.info/)
 
