@@ -16,6 +16,7 @@
 + [再聊移动端页面的适配](https://www.w3cplus.com/css/vw-for-layout.html)
 + [移动端1px细线解决方案总结](http://www.cnblogs.com/fang51/p/5681528.html)
 + [移动前端开发之viewport的深入理解](http://www.cnblogs.com/2050/p/3877280.html)
++ [H5移动多终端适配全解 - 从原理到方案](https://zhuanlan.zhihu.com/p/25422063)
 
 ### 方法论
 + [bem](https://en.bem.info/)
